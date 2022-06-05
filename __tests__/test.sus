@@ -1,0 +1,6 @@
+globalmethod say_hi(0) {
+    name: Str;
+    returns {
+        greeting: Str;
+    }
+}

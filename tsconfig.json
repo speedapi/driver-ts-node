@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+        "moduleResolution": "node",
+        "target": "es2015",
+        "module": "esnext",
+        "sourceMap": true,
+        "strict": true,
+        "strictFunctionTypes": true,
+        "noImplicitThis": true,
+        "noImplicitAny": true,
+        "strictNullChecks": true,
+        "alwaysStrict": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": false,
+        "skipLibCheck": true,
+        "declaration": true,
+        "esModuleInterop": true,
+        "downlevelIteration": true,
+        "disableSizeLimit": true,
+    },
+    "include": ["src", "__tests__"],
+    "exclude": ["node_modules", "lib"]
+}
