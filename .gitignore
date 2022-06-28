@@ -2,3 +2,4 @@
 /transport
 **/node_modules
 coverage
+__tests__/*_output

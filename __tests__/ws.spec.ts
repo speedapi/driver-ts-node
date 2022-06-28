@@ -6,7 +6,7 @@ function delay(ms: number) {
     return new Promise((res) => setTimeout(res, ms));
 }
 
-describe("TLS", () => {
+describe("WS", () => {
     test("global method call", async () => {
         let closed = false;
         // set up a server

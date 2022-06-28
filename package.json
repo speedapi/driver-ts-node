@@ -1,6 +1,6 @@
 {
   "name": "@speedapi/node",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "SpeedAPI wire protocol implementation for TypeScript",
   "main": "dist/index.js",
   "scripts": {
@@ -54,12 +54,12 @@
     "typescript": "^4.6.2"
   },
   "dependencies": {
-    "@speedapi/driver": "^1.3.3",
+    "@speedapi/driver": "^1.5.1",
     "tslib": "^2.3.1",
     "ws": "^8.7.0"
   },
   "peerDependencies": {
-    "@speedapi/driver": "^1.3.3",
+    "@speedapi/driver": "^1.5.1",
     "typescript": "^4.6"
   }
 }
